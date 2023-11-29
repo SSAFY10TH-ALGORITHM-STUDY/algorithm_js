@@ -35,7 +35,7 @@ public class BOJ_10828_스택 {
 		// 명령을 받고 명령어에 따라 동작 수행
 		st = new StringTokenizer(br.readLine().trim());
 		String instruction = st.nextToken();
-		if (instruction.equals("push")){
+		if (instruction.equals("push")) {
 			int number = Integer.parseInt(st.nextToken());
 			stack.push(number);
 		} else if (instruction.equals("pop")) {
@@ -110,8 +110,8 @@ class Stack {
 		return 0;
 	}
 
-	public int top(){
-		if (this.curIdx == 0){
+	public int top() {
+		if (this.curIdx == 0) {
 			return -1;
 		}
 		return this.arr[this.curIdx - 1];
