@@ -25,7 +25,7 @@ public class BOJ_21922_학부연구생민상 {
 	static final int[] DELTA_COL = {0, 1, 0, -1};
 	static final int NUM_DIRECTION = 4;
 	static final int BLANK = 0;
-	static final int AIRCONDITIONER = 9;
+	static final int AIR_CONDITIONER = 9;
 	static final int THING1 = 1, THING2 = 2, THING3 = 3, THING4 = 4;
 	static int rowSize, colSize;
 	// 연구실 크기 * 바람의 방향 수만큼 배열선언
@@ -64,7 +64,7 @@ public class BOJ_21922_학부연구생민상 {
 				int val = Integer.parseInt(st.nextToken());
 				if (val == BLANK) {
 					continue;
-				} else if (val == AIRCONDITIONER) {
+				} else if (val == AIR_CONDITIONER) {
 					// availableSeat[row][col] = true;
 					AirConditioner airConditioner = new AirConditioner(row, col);
 					airconList.add(airConditioner);
