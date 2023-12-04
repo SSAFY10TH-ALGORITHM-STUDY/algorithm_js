@@ -24,17 +24,17 @@ public class BOJ_13975_파일합치기3 {
 		int numFile = Integer.parseInt(br.readLine().trim());
 		st = new StringTokenizer(br.readLine().trim());
 		fileQueue = new PriorityQueue<>();
-		for (int idx = 0; idx < numFile; idx++){
+		for (int idx = 0; idx < numFile; idx++) {
 			long file = Long.parseLong(st.nextToken());
 			fileQueue.offer(file);
 		}
 	}
 
-	public static void mergeFile(){
+	public static void mergeFile() {
 		minCost = 0;
-		while (true){
+		while (true) {
 			long tmpFile = fileQueue.poll();
-			if (fileQueue.isEmpty()){
+			if (fileQueue.isEmpty()) {
 				break;
 			}
 			tmpFile += fileQueue.poll();
@@ -43,11 +43,12 @@ public class BOJ_13975_파일합치기3 {
 		}
 		sb.append(minCost).append("\n");
 	}
+
 	public static void main(String[] args) throws IOException {
 		br = new BufferedReader(new InputStreamReader(System.in));
 		sb = new StringBuilder();
 		testCase = Integer.parseInt(br.readLine().trim());
-		for (int tc= 0; tc< testCase; tc++){
+		for (int tc = 0; tc < testCase; tc++) {
 			// 입력을 받는 함수
 			getInput();
 			// 파일을 하나로 합치는 함수
