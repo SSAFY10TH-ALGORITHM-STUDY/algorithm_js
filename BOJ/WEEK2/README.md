@@ -10,7 +10,7 @@
 |5052| [전화번호 목록](https://www.acmicpc.net/problem/5052) | ✅  |  [풀이](./BOJ_5052_전화번호목록.java)  | 23.12.11 |          `문자열`           | 207452  |  1204  |      
 |21275| [폰 호석만](https://www.acmicpc.net/problem/21275) | ✅   |  [풀이](./BOJ_21275_폰호석만.java)   | 23.12.11 |           `구현`           |  11536  |   80   |
 |4659| [비밀번호 발음하기](https://www.acmicpc.net/problem/4659) | ✅      | [풀이](./BOJ_4659_비밀번호발음하기.java) | 23.12.11 |           `구현`           |  11448  |   72   |
-|1749| [점수따먹기](https://www.acmicpc.net/problem/1749) |  ✅     |  [풀이](./BOJ_1749_점수따먹기.java)   | 23.12.12 |        `prefixsum`        |  19064  |  756   |
-|16719| [ZOAC](https://www.acmicpc.net/problem/16719) |    |                                |          |                          |         |        |
+|1749| [점수따먹기](https://www.acmicpc.net/problem/1749) |  ✅     |  [풀이](./BOJ_1749_점수따먹기.java)   | 23.12.12 |       `prefixsum`        |  19064  |  756   |
+|16719| [ZOAC](https://www.acmicpc.net/problem/16719) | ✅        |  [풀이](./BOJ_16719_ZOAC.java)   | 23.12.12 |           `구현`            |  13508  |   88   |
 |19637| [IF문 좀 대신 써줘](https://www.acmicpc.net/problem/19637) |    |                                |          |                          |         |        |
 |7453| [합이 0인 네 정수](https://www.acmicpc.net/problem/7453) |    |                                |          |                          |         |        |
