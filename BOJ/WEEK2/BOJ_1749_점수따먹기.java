@@ -37,15 +37,14 @@ public class BOJ_1749_점수따먹기 {
 		for (int row = 0; row < rowSize; row++) {
 			for (int col = 0; col < colSize; col++) {
 				prefixMap[row + 1][col + 1] = prefixMap[row + 1][col] + prefixMap[row][col + 1]
-					- prefixMap[row][col] + map[row][col];
+												- prefixMap[row][col] + map[row][col];
 			}
 		}
 	}
 
 	// 구간합을 구해주는 함수
 	public static int prefixSum(int row1, int col1, int row2, int col2) {
-		return prefixMap[row2 + 1][col2 + 1] - prefixMap[row1][col2 + 1] - prefixMap[row2 + 1][col1]
-			+ prefixMap[row1][col1];
+		return prefixMap[row2 + 1][col2 + 1] - prefixMap[row1][col2 + 1] - prefixMap[row2 + 1][col1] + prefixMap[row1][col1];
 	}
 
 	public static void calMaxVal(int rSize, int cSize) {
@@ -54,7 +53,6 @@ public class BOJ_1749_점수따먹기 {
 				dp[rSize][cSize] = Math.max(dp[rSize][cSize], prefixSum(row, col, rSize, cSize));
 			}
 		}
-
 	}
 
 	public static void solve() {
