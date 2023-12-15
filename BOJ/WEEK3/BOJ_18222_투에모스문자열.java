@@ -15,10 +15,27 @@ import java.io.InputStreamReader;
 public class BOJ_18222_투에모스문자열 {
 	static BufferedReader br;
 	static long input;
+	static long[] pow;
+
+	public static int thuemorse(long number){
+		if (number == 1){
+			return 0;
+		}
+		for (int idx = 1; idx <64; idx++){
+			if (pow[idx] >= number){
+				return 1 - thuemorse(number - pow[idx-1]);
+			}
+		}
+		return 0;
+	}
 	public static void main(String[] args) throws IOException {
 		br = new BufferedReader(new InputStreamReader(System.in));
-		input = Integer.parseInt(br.readLine().trim());
-
-
+		input = Long.parseLong(br.readLine().trim());
+		pow = new long[64];
+		pow[0] = 1;
+		for (int idx = 1; idx < 64; idx++){
+			pow[idx] = pow[idx-1] * 2;
+		}
+		System.out.println(thuemorse(input));
 	}
 }
