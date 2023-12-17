@@ -6,8 +6,8 @@
 |1316| [그룹 단어 체커](https://www.acmicpc.net/problem/1316) | ✅ |    [풀이](./BOJ_1316_그룹단어체커.java)    | 23.12.14 |    `문자열`     |  11576  |   80   |
 |2503| [숫자 야구](https://www.acmicpc.net/problem/2503) | ✅ |     [풀이](./BOJ_2503_숫자야구.java)     | 23.12.14 |     `구현`     |  11796  |   84   |
 |18222| [투에-모스 문자열](https://www.acmicpc.net/problem/18222) |✅   |   [풀이](./BOJ_18222_투에모스문자열.java)   | 23.12.16 |     `재귀`     |  11476  |   76   |
-|20058| [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058) | ✅    | [풀이](./BOJ_20058_마법사상어와파이어스톰.java) | 23.12.17 |     `구현`      |  89256       |  408   |
-|1874| [스택 수열](https://www.acmicpc.net/problem/1874) |  |                                    |          |              |         |        |
+|20058| [마법사 상어와 파이어스톰](https://www.acmicpc.net/problem/20058) | ✅    | [풀이](./BOJ_20058_마법사상어와파이어스톰.java) | 23.12.17 |     `구현`     |  89256       |  408   |
+|1874| [스택 수열](https://www.acmicpc.net/problem/1874) | ✅     |     [풀이](./BOJ_1847_스택수열.java)     | 23.12.18 |     `스택`     |   26636      |  316   |
 |1976| [여행 가자](https://www.acmicpc.net/problem/1976) |  |                                    |          |              |         |        |
 |22865| [가장 먼 곳](https://www.acmicpc.net/problem/22865) |  |                                    |          |              |         |        |
 |2470| [두 용액](https://www.acmicpc.net/problem/2470) |  |                                    |          |              |         |        |
