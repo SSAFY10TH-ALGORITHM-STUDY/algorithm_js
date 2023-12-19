@@ -12,5 +12,5 @@
 |22865| [가장 먼 곳](https://www.acmicpc.net/problem/22865) |    ✅    |    [풀이](./BOJ_22865_가장먼곳.java)     | 23.12.19 |   `dijkstra`    | 185800  |  880   |
 |2470| [두 용액](https://www.acmicpc.net/problem/2470) |    ✅    |     [풀이](./BOJ_2470_두용액.java)      | 23.12.18 | `binary search` |  31964  |  324   |
 |10844| [쉬운 계단 수](https://www.acmicpc.net/problem/10844) |   ✅     |    [풀이](./BOJ_10844_쉬운계단수.java)    | 23.12.19 |      `dp`       |  11520  |   84   |
-|2473| [세 용액](https://www.acmicpc.net/problem/2473) |      ✅        |     [풀이](./BOJ_2473_세용액.java)      | 23.12.19 | `binary search`  |  13084  |  684   |
-|11657| [타임머신](https://www.acmicpc.net/problem/11657) |         |                                    |          |                 |         |        |
+|2473| [세 용액](https://www.acmicpc.net/problem/2473) |      ✅        |     [풀이](./BOJ_2473_세용액.java)      | 23.12.19 | `binary search` |  13084  |  684   |
+|11657| [타임머신](https://www.acmicpc.net/problem/11657) |     ✅            |    [풀이](./BOJ_11657_타임머신.java)     | 23.12.19 |      `벨만포드`      |  17272  |  272   |
