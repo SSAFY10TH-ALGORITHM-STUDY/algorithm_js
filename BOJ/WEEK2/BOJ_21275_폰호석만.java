@@ -28,14 +28,15 @@ public class BOJ_21275_폰호석만 {
 		long ans = 0L;
 		for (int idx = number.length - 1; idx >= 0; idx--){
 			char tmp = number[idx];
-			// 0 ~ 9인 경우
+			// a~z인 경우
 			if (tmp - '0' > 10){
 				int val = tmp - 'a' + 10;
 				if (val >= decimal){
 					return -1;
 				}
 				ans += (long) Math.pow(decimal, (number.length - idx - 1)) * val;
-			}else{ // a~z인 경우
+			}else{
+				// 0 ~ 9인 경우
 				int val = tmp - '0';
 				if (val >= decimal){
 					return -1;

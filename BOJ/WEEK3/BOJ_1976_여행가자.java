@@ -19,6 +19,7 @@ public class BOJ_1976_여행가자 {
 		if (parents[val] == val) {
 			return val;
 		}
+		// return parents[val];
 		return parents[val] = find(parents[val]);
 	}
 

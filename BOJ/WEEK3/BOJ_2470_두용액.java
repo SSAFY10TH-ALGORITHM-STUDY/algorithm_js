@@ -29,7 +29,6 @@ public class BOJ_2470_두용액 {
 		if (low == numLiquid) {
 			return low - 1;
 		}
-
 		return low;
 	}
 
@@ -49,6 +48,8 @@ public class BOJ_2470_두용액 {
 			int val = liquidList[idx];
 			// - value 보다 크거나 같은 첫번재 인자와 비교
 			int minIdx = lowerbound(-val);
+			//1. 큰값일 경우
+			// -> 작은값을 더한 값이 더 합이 작을 수 있다.
 			int diff = Math.abs(val + liquidList[minIdx]);
 			// 같은 index인 경우 무효
 			if (idx == minIdx) {
