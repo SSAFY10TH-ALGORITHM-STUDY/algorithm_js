@@ -11,3 +11,4 @@
 | [다리를 지나는 트럭](https://school.programmers.co.kr/learn/courses/30/lessons/42583) |✅| [풀이](./Queue_다리를지나는트럭.java) | 23.12.21 |  `Queue`  |
 |    [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)    |✅|      [풀이](./주식가격.java)      | 23.12.21 |  `Stack`  |
 |    [더맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)     |✅|      [풀이](./더맵게.java)       | 23.12.22 |  `Heap`   |
+|  [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)  |✅|    [풀이](./디스크컨트롤러.java)     | 23.12.25 |  `Heap`   |
