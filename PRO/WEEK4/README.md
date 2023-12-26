@@ -12,4 +12,5 @@
 |    [주식가격](https://school.programmers.co.kr/learn/courses/30/lessons/42584)    |✅|      [풀이](./주식가격.java)      | 23.12.21 |  `Stack`  |
 |    [더맵게](https://school.programmers.co.kr/learn/courses/30/lessons/42626)     |✅|      [풀이](./더맵게.java)       | 23.12.22 |  `Heap`   |
 |  [디스크 컨트롤러](https://school.programmers.co.kr/learn/courses/30/lessons/42627)  |✅|    [풀이](./디스크컨트롤러.java)     | 23.12.25 |  `Heap`   |
-|  [이중우선순위 큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)  |✅|    [풀이](./이중우선순위큐.java)     | 23.12.25 |  `Heap`   |
+|  [이중우선순위 큐](https://school.programmers.co.kr/learn/courses/30/lessons/42628)  |✅|    [풀이](./이중우선순위큐.java)     | 23.12.26 |  `Heap`   |
+|  [H-index](https://school.programmers.co.kr/learn/courses/30/lessons/4274)   |✅|     [풀이](./HIndex.java)     | 23.12.26 |   `정렬`    |
