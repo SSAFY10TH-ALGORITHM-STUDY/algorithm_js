@@ -6,3 +6,4 @@
 | [섬연결하기](https://school.programmers.co.kr/learn/courses/30/lessons/42861) |✅| [풀이](./섬연결하기.java) | 24.01.01 | `크루스칼` |
 | [단속카메라](https://school.programmers.co.kr/learn/courses/30/lessons/42884) |✅| [풀이](./단속카메라.java) | 24.01.01 | `그리디`  |
 | [타겟넘버](https://school.programmers.co.kr/learn/courses/30/lessons/43165)  |✅| [풀이](./타겟넘버.java)  | 23.12.31 | `dfs`  |
+| [네트워크](https://school.programmers.co.kr/learn/courses/30/lessons/43162)  |✅| [풀이](./네트워크.java)  | 24.01.01 | `bfs`  |
