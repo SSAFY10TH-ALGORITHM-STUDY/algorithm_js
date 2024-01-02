@@ -10,3 +10,4 @@
 | [게임 맵 최단거리](https://school.programmers.co.kr/learn/courses/30/lessons/1844) |✅| [풀이](./게임맵최단거리.java) | 24.01.01 | `bfs`  |
 |  [단어 변환](https://school.programmers.co.kr/learn/courses/30/lessons/43163)   |✅|  [풀이](./단어변환.java)   | 24.01.01 | `bfs`  |
 |  [아이템줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)   |✅|  [풀이](./아이템줍기.java)  | 24.01.01 | `bfs`  |
+|[여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)|✅|  [풀이](./여행경로.java)   | 24.01.01 | `dfs`  |
