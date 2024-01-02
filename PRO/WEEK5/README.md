@@ -12,3 +12,4 @@
 |  [아이템줍기](https://school.programmers.co.kr/learn/courses/30/lessons/87694)   |✅|  [풀이](./아이템줍기.java)  | 24.01.01 |  `bfs`   |
 |   [여행경로](https://school.programmers.co.kr/learn/courses/30/lessons/43164)   |✅|  [풀이](./여행경로.java)   | 24.01.01 |  `dfs`   |
 |    [순위](https://school.programmers.co.kr/learn/courses/30/lessons/49191)    |✅|   [풀이](./순위.java)    | 24.01.02 | `플로이드워셜` |
+|  [N으로 표현](https://school.programmers.co.kr/learn/courses/30/lessons/42895)  |✅|  [풀이](./N으로표현.java)  | 24.01.02 |   `??`   |
